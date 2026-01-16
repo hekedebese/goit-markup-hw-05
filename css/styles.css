@@ -415,7 +415,6 @@ footer {
 
 footer > .container {
   display: flex;
-  gap: 120px;
   align-items: baseline;
 }
 
@@ -425,6 +424,7 @@ footer > .container {
 
 .footer-text {
   width: 264px;
+  margin-right: 120px;
 }
 
 .footer-text .logo {
@@ -478,6 +478,7 @@ footer > .container {
   flex-direction: column;
   height: 80px;
   width: 453px;
+  margin-left: auto;
 }
 
 .footer-form-row {
