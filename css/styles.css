@@ -436,7 +436,6 @@ footer > .container {
   display: flex;
   flex-direction: column;
   width: 208px;
-  justify-content: space-between;
   height: 80px;
 }
 
@@ -444,6 +443,7 @@ footer > .container {
 .footer-form p {
   font-weight: 500;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .footer-icon ul {
@@ -476,7 +476,6 @@ footer > .container {
 .footer-form {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 80px;
   width: 453px;
 }
@@ -491,6 +490,7 @@ footer > .container {
   border-radius: 4px;
   padding: 8px 16px;
   width: 264px;
+  height: 40px;
   color: #fff;
   font-weight: 400;
   font-size: 12px;
@@ -586,6 +586,8 @@ footer > .container {
 }
 
 .close-button {
+  width: 24px;
+  height: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
